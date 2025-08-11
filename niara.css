@@ -1,0 +1,58 @@
+:root{
+    --global-font-family: Trebuchet MS, Arial, sans-serif;
+}
+
+.image_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body {
+    background-color: palevioletred;
+}
+
+a:link {
+    font-family: var(--global-font-family);
+    color: hotpink;
+    background-color:black;
+    text-decoration: underline;
+}
+a:visited {
+    font-family: var(--global-font-family);
+    color: purple;
+    background-color: black;
+    text-decoration:underline;
+}
+a:hover {
+    font-family: var(--global-font-family);
+    color: lightpink;
+    background-color:gray;
+    text-decoration: solid, underline;
+}
+a:active{
+    font-family: var(--global-font-family);
+    color: white;
+    background-color: lightgray;
+    text-decoration: solid, underline;
+}
+
+
+h1 {
+    font-family: var(--global-font-family);
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h2{
+    font-family: var(--global-font-family);
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: var(--global-font-family);
+    font-size: 18px;
+}
